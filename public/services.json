@@ -1,0 +1,56 @@
+[
+    {
+        "key": 1,
+        "name": "All Specialist",
+        "img": "https://i.ibb.co/gRtqdWJ/All-specialist.png",
+        "description": "We have medical specialists with advanced education and clinical training in a specific area of medicine. Including addiction psychiatrist and adolescent medicine specialist."
+    },
+    {
+        "key": 2,
+        "name": "Private & Secure",
+        "img": "https://i.ibb.co/TPvfgpC/Private-Secure.png",
+        "description": "Get proper security and privacy while observing the best treatment for your health. Let your close ones check it out."
+    },
+    {
+        "key": 3,
+        "name": "Million Users",
+        "img": "https://i.ibb.co/GWrBs09/Millions-Users.png",
+        "description": "People are trusting us and getting the ultimate service they need. Have a check with your loved ones and feel the happiness of hospitality."
+    },
+    {
+        "key": 4,
+        "name": "Chatbot Support",
+        "img": "https://i.ibb.co/r62D9q5/Chatbot-Support.png",
+        "description": "Get access to Medisure chat service and feel free to message us whenever you need a health checkup."
+    },
+    {
+        "key": 5,
+        "name": "Critical Care",
+        "img": "https://i.ibb.co/QYtHqd0/Critical-Care.png",
+        "description": "Your most critical time will be with us and we are sure to bring the best out of our services. Never lose hope and trust in Medisure."
+    },
+    {
+        "key": 6,
+        "name": "Professional Nursing",
+        "img": "https://i.ibb.co/vmQBqt8/professional-nursing.png",
+        "description": "Our professional nurses will set up a plan of care. From wound dressing to monitoring the general health of the patient; they will always be on support giving you the ultimate services."
+    },
+    {
+        "key": 7,
+        "name": "General Surgery",
+        "img": "https://i.ibb.co/pzvYc1J/General-Surgery.png",
+        "description": "The surgeons treat diseases of the abdomen, breast, head and neck, blood vessels, and digestive tract. They also manage the care of patients who have been injured."
+    },
+    {
+        "key": 8,
+        "name": "Heart Transplant",
+        "img": "https://i.ibb.co/ZdJkn1X/Heart-Transplant.png",
+        "description": "We offer world-class treatment for heart patients along with heart transplant services. Feel free to check Medisure."
+    },
+    {
+        "key": 9,
+        "name": "Dermatology & Cosmetology",
+        "img": "https://i.ibb.co/LzM4tBB/dermatology-and-cosmetology.png",
+        "description": "Medisure ensures the best treatment for the patients. From normal health checkups to dermatology, Medisure gives the ultimate service for all."
+    }
+]

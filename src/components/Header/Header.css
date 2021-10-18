@@ -1,0 +1,31 @@
+/* fonts and styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.nav-item a {
+    text-decoration: none;
+    color: #0e4050;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.nav-item{
+    margin-left: 60px;
+}
+
+.nav-item a:hover {
+    color: #2596be;
+}
+
+.q-a:hover {
+    color:  #2596be;
+}
+
+
+.page {
+    margin-top: 7px;
+}
+.other-btn {
+    position: relative;
+    left: 80px;
+}

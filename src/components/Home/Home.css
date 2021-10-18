@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+.title {
+    color: #0e4050;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+.info{
+    margin-top: 30px;
+    margin-left: 25px;
+    color: #0e4050;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.info:hover {
+    color: #2596be;
+}
+
+.doctor-info {
+    padding: 10px;
+}
+.title u {
+  cursor: pointer;
+
+}
+
+.chat {
+    position: relative;
+    top: -18px;
+    cursor: pointer;
+}
+
+.common-btn {
+    border: none;
+    background-color: #0e4050;
+    color: white;
+    border-radius: 40px;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Poppins';
+    margin-left: 22px;
+}
+
+.doctor-banner {
+    width: 900px;
+    position: relative;
+    right: 400px;
+    bottom: 100px;
+    background-image: url('../../assets/images/shape.png');
+    background-repeat: no-repeat;
+    background-position: 475px 50px;
+}
+
+.basic-title {
+    color: #0e4050;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.filter-green {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+
