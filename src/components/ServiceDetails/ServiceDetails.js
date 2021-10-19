@@ -14,7 +14,8 @@ const ServiceDetails = () => {
 
     return (
         <div>
-            <h2>Details is Here! {servicename}</h2>
+            <h2 className='title text-center'> Welcome to <span style={{ color: '#2596be' }}>{servicename}</span> services!</h2>
+            <p className='text-center'>Here you'll get the best services for your family and loved ones. Don't miss out the chance. Take care of you and your family.</p>
         </div>
     );
 };
