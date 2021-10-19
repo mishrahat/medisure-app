@@ -9,6 +9,15 @@
     font-weight: 500;
 }
 
+.nav-item button {
+    text-decoration: none;
+    color: #0e4050;
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    border: none;
+    background-color: white;
+}
+
 .nav-item{
     margin-left: 60px;
 }

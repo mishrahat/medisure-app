@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
+import useAuth from '../../hooks/useAuth';
+import useFirebase from '../../hooks/useFirebase';
 import './Header.css';
 
 const Header = () => {
+    const { user, logOut } = useAuth();
     return (
         <div className='container'>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <img style={{ width: '190px', position: 'relative', top: '-10px' }} src={logo} alt="" />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,11 +32,18 @@ const Header = () => {
                             <li className="nav-item page main-route">
                                 <Link to='/articles'>Articles</Link>
                             </li>
+                            <li className="nav-item page main-route">
+                                {
+                                    user.email && <h5 style={{ fontFamily: 'Poppins', color: '#0e4050' }}>{user.displayName}</h5>
+                                }
+                            </li>
                             <li className="nav-item page other-btn">
                                 <a href="tel:+8801813776268"><span style={{ color: '#2596be' }}>Call Now</span> <br />01813-776268</a>
                             </li>
                             <li className="nav-item page other-btn">
-                                <Link to='/login'>Login</Link>
+                                {user.email ? <button onClick={logOut}>Log Out</button>
+                                    :
+                                    <Link to='/login'>Login</Link>}
                             </li>
 
                         </ul>

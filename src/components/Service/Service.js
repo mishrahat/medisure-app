@@ -1,8 +1,8 @@
 import React from 'react';
+import './Service.css';
 import { Link } from 'react-router-dom';
-import './HomeServices.css';
 
-const HomeServices = (props) => {
+const Service = (props) => {
     const { name, img, description } = props.service;
     const url = `/homeservices/${name}`;
     return (
@@ -17,4 +17,4 @@ const HomeServices = (props) => {
     );
 };
 
-export default HomeServices;
+export default Service;

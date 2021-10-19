@@ -1,0 +1,23 @@
+.login-form {
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+.form-text {
+    font-family: 'Poppins';
+    font-weight: 900px;
+    color: #0e4050;
+}
+
+.register-btn a {
+    text-decoration: none;
+    color: #2596be;
+}
+
+.google-btn {
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
