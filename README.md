@@ -1,6 +1,6 @@
 # Medisure Healthcare App
 
-[Medisure](https://github.com/facebook/create-react-app) is a basic react js Single Page Application project made for people who need instant medical services.
+[Medisure](https://medisure.netlify.app) is a basic react js Single Page Application project made for people who need instant medical services.
 
 ## What have I used?
 
